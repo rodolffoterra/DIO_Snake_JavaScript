@@ -4,7 +4,7 @@ let box = 32;
 let snake = [];
 snake[0] = {
     x: 8 * box,
-    y: 8 * box,
+    y: 8 * box
 }
 
 let direction = "right";
@@ -44,4 +44,4 @@ function iniciarjogo() {
     
 }
 
-let jogo = setInterval(IniciarJogo, 100);
+let jogo = setInterval(iniciarjogo, 100);
